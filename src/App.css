@@ -26,6 +26,7 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
+/* WHEN PUT THE MOUSE CURSOR */
 a:hover {
   color: #00fff7;
 }
@@ -33,7 +34,7 @@ p {
   margin: 0;
 }
 
-/* NFT Card style */
+/* NFT CARD STYLE - HOLDER (SUPORTE) */
 .card-holder {
   min-width: 100%;
   min-height: calc(100vh - 40px);
@@ -42,6 +43,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+/* STYLE CARD  */
 .card {
   width: 350px;
   max-width: 100%;
@@ -50,6 +52,8 @@ p {
   background-color: #14253d;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+/* STYLE IMAGE CARD */
 .card-img {
   position: relative;
   display: block;
@@ -57,10 +61,12 @@ p {
   border-radius: 10px;
   caret-color: transparent;
 }
+/* STYLE IMAGE HOLDER (SUPORTE) */
 .card-img__holder {
   font-size: 0;
   line-height: 0;
 }
+/* SOBREPOISCAO (OVERLAP) IMAGE */
 .card-img__overlap {
   position: absolute;
   display: flex;
@@ -74,30 +80,37 @@ p {
   opacity: 0;
   transition: all 0.3s ease-out;
 }
+/* IMAGE MOUSE CURSOR */
 .card-img:hover .card-img__overlap {
   opacity: 1;
 }
+/* STYLE INFO */
 .card-info {
   padding: 16px 0;
   border-bottom: 1px solid #2f415b;
 }
+/* STYLE TITLE */
 .card-info__title {
   font-size: 22px;
   font-weight: 600;
 }
+/* STYLE INFO TITLE */
 .card-info__title h1 {
   margin: 0;
   font-size: 1em;
 }
+/* STYLE INFO TEXT */
 .card-info__text {
   margin: 16px 0;
 }
+/* STYLE INFO STAT */
 .card-info__stat {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
 }
+/* STYPE INFO STAT */
 .card-info__stat img {
   display: block;
   margin: 0 6px 0 0;
@@ -128,7 +141,7 @@ p {
   font-size: 16px;
 }
 
-/* Other styles */
+/* STYLES ATTIBUITION */
 .attribution {
   display: flex;
   align-items: center;
@@ -142,7 +155,7 @@ p {
   text-decoration: none;
 }
 
-/* Responsive styles */
+/* STYLE RESPONSIVE */
 @media (max-width: 475px) {
   .attribution {
     font-size: 14px;
